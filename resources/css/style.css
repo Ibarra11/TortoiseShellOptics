@@ -98,3 +98,25 @@ header .slogan h2{
 .service-container .img-md{
 	width: 5rem;
 }
+
+/*Site Information Sectin*/
+#site-info{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+
+#site-info .info-container{
+	width: 35%;
+	margin-right: 5%;
+}
+
+.info-container h3{
+	width: 10rem;
+	background-color: cadetblue;
+	padding: 0.5rem 1.25rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	color: white;
+}
