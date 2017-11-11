@@ -9,6 +9,7 @@ body{
 	margin: 0 auto;
 }
 
+
 .flex{
 	display: flex;
 }
@@ -68,4 +69,32 @@ header .slogan h2{
 	text-transform: uppercase;
 	line-height: 1.2;
 	font-size: 2rem;
+}
+
+/*Services Section*/
+#services{
+	display: flex;
+	margin: 3rem 0;
+	justify-content: center;
+}
+
+#services .service-container{
+	height: 8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+ #custom, #delivery{
+	margin-left: 5rem;
+}
+
+.service-container #img-sm{
+	width: 3.5rem
+}
+
+.service-container .img-md{
+	width: 5rem;
 }
